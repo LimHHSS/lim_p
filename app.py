@@ -47,7 +47,7 @@ if uploaded_file:
         st.session_state.history.append((query, result["answer"]))
         return result["answer"]
 
-    st.title("ChatGPT 형태의 챗봇")
+    st.title("PDF 챗봇")
 
     # 채팅 메시지 출력
     for message in st.session_state.messages:
